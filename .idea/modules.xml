@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-demo.iml" filepath="$PROJECT_DIR$/cloud-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-respo/config-respo.iml" filepath="$PROJECT_DIR$/config-respo/config-respo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-config/server-config.iml" filepath="$PROJECT_DIR$/server-config/server-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server-zuul/server-zuul.iml" filepath="$PROJECT_DIR$/server-zuul/server-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/service-feign/service-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
+    </modules>
+  </component>
+</project>
