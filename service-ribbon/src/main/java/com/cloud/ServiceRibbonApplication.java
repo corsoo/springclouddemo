@@ -15,7 +15,7 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableDiscoveryClient
-@EnableHystrix    //断路器
+@EnableHystrix    //断路器，降级
 public class ServiceRibbonApplication {
 
 	public static void main(String[] args) {
@@ -23,7 +23,7 @@ public class ServiceRibbonApplication {
 	}
 
 	@Bean
-	@LoadBalanced
+	@LoadBalanced  //实现负载均衡
 	RestTemplate restTemplate() {
 		return new RestTemplate();
 	}

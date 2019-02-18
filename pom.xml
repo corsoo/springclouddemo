@@ -20,6 +20,7 @@
         <module>eureka-client</module>
         <module>service-ribbon</module>
         <module>service-feign</module>
+        <module>server-config</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
